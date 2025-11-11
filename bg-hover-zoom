@@ -1,0 +1,9 @@
+/*Background Hover Zoom transition*/
+selector {
+    background-size: 130% !important;
+    transition: all 0.6s ease-in-out;
+}
+
+selector:hover {
+    background-size: 150% !important;
+}
