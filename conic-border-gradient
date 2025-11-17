@@ -1,0 +1,14 @@
+.button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: inherit;
+    margin: -1.5px;
+    background: conic-gradient(from var(--_gradient-angle) at 50% 50%, #ffffff 0deg, #fbfaf600 360deg), #FF4F00;
+    animation: gradient-angle-rotate 3s 
+linear infinite;
+}
