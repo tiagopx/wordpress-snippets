@@ -1,0 +1,59 @@
+//////QIB BUTTONS CSS STYLING//////
+
+/* Esconde o input de quantidade duplicado do WooCommerce 
+selector form.cart .quantity input[type="number"]:first-child {
+  display: none !important;
+}}*/
+
+selector .plus, selector .minus {
+    margin-left: 0 !important;
+}
+
+selector .qib-button {
+   font-size: 1.75rem !important;
+    font-weight: 300 !important;
+    color: #F1563C !important;
+        border: none !important;
+    background: transparent !important;
+    box-shadow: none;
+}
+
+selector .qib-button-wrapper {
+    background-color: white !important;
+    border: 1px solid #F1563C;
+    border-radius: 28px;
+    margin: 0;
+    height: 50px;
+    width: 142px;
+}
+
+selector input {
+    border: none !important;
+    background: transparent !important;
+    font-size: 1.75rem !important;
+    font-weight: 300 !important;
+    color: #F1563C;
+}
+
+selector span.price {
+    color: #106470;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+selector .stock {
+    display:none;
+}
+
+@media only screen and (max-width: 767px) {
+  .e-atc-qty-button-holder {
+    flex-wrap: wrap !important;
+    gap: 10px;
+  }
+  .single_add_to_cart_button {
+      margin: 0 !important;
+  }
+  .qib-button-wrapper {
+      width: 100% !important;
+  }
+}
